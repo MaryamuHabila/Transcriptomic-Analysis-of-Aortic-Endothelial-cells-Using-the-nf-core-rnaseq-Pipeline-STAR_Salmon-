@@ -1,0 +1,4 @@
+fasta: "/datastore/home/genomes/igenomes/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa"
+gtf: "/datastore/home/genomes/igenomes/Homo_sapiens/UCSC/hg38/Annotation/Archives/archive-2015-08-14-08-18-15/Genes/genes.gtf"
+aligner: "star_salmon"
+skip_biotype_qc: true

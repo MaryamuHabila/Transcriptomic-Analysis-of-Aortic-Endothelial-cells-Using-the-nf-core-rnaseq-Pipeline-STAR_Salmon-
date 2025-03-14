@@ -1,0 +1,13 @@
+NXF_OPTS='-Xms20g -Xmx40g'
+
+nextflow run nf-core/rnaseq \
+  --input Samplesheet_HAoECs.csv \
+  -params-file nfcore_params.yml \
+  -r 3.18.0 \
+  -profile singularity \
+  -with-dag \
+  -with-timeline \
+  -with-trace \
+  -with-report \
+  --outdir results \
+  -resume
