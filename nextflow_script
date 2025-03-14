@@ -1,3 +1,4 @@
+#!/bin/bash
 NXF_OPTS='-Xms20g -Xmx40g'
 
 nextflow run nf-core/rnaseq \
