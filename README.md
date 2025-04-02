@@ -150,5 +150,4 @@ nextflow run nf-core/rnaseq \
 4. **Output files are saved** in the `results` directory.
 5. **Reports and logs** are generated for reproducibility and troubleshooting.
 
-By using this structured approach, even beginners can effectively understand and execute the pipeline. This document ensures clarity and serves as a reusable guide for future RNA-seq analysis projects.
 
